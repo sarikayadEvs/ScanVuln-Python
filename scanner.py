@@ -48,4 +48,5 @@ if __name__ == "__main__":
     
     print(f"[*] {hedef_ip}:{hedef_port} taranıyor...")
     sonuc = banner_cek(hedef_ip, hedef_port)
+
     analiz_et(sonuc)
